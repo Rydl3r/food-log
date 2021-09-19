@@ -1,4 +1,3 @@
-
 import InputComp from './components/InputComp';
 import NavbarComp from './components/NavbarComp';
 import TableComp from './components/TableComp';

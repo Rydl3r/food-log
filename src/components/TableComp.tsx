@@ -50,7 +50,7 @@ const TableComp = (props: { logged: any; adding: any; }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {Object.keys(logs).length === 0 || !logs
+                    {!logs || Object.keys(logs).length === 0
                         ?
                         "No Data, try adding something!"
                         :
